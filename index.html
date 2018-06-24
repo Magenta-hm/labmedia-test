@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/fontstyle.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
 
@@ -46,6 +47,7 @@
             <a class="block-item tear-item" href="#">
               <img src="img/tear.png" width="33" height="33" alt="">
               <span class="visually-hidden"></span>
+              <span class="tear-number">150</span>
             </a>
             <a class="block-item bell-item" href="#">
               <img src="img/bell.png" width="38" height="40" alt="Уведомления">
@@ -72,21 +74,48 @@
               <h2 class="big-title">Кафедра экономики и инвестиций</h2>
               <p>24/36. Крупный текст под основным заголовком. Кодекс определяет порядок действий работниковв ситуации конфликта интересов, объявляет нетерпимость к коррупционному поведению, закрепляет принципы заботы об экологии, запрета на дискриминацию. Отступ абзаца равен пустрой строке. Положения кодекса обязательны для исполнения работниками компании (в том числе всеми членами Правления.</p>
               <p>Отступ абзаца равен пустрой строке. Положения кодекса обязательны для исполнения работниками компании (в том числе всеми членами Правления, членами Совета директоров, являющимися работниками компании) и подконтрольных компании юридических лиц.</p>
-              <ul class="tags-items">
-                <li>
-                  <a class="tag-link" href="#">Машинное обучене</a>
-                </li>
-                <li>
-                  <a class="tag-link" href="#">IBM</a>
-                </li>
-                <li>
-                  <a class="tag-link" href="#">AI</a>
-                </li>
-                <li>
-                  <a class="tag-link" href="#">Бухгалтерский учет и аудит</a>
-                </li>
-              </ul>
+            </div>
+            <div class="right-column">
+                <button class="circle-arrows arrow-prev" type="button" disabled>
+                  <span class="visually-hidden">Предыдущий слайд</span>
+                </button>
+                <button class="circle-arrows arrow-next" type="button">
+                  <span class="visually-hidden">Следующий слайд</span>
+                </button>
+                <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+                <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
+                <div class="slider-controls">
+                  <label class="slider-controls-item slider-controls-item-1" for="slide-1">Слайд 1</label>
+                  <label class="slider-controls-item slider-controls-item-2" for="slide-2">Слайд 2</label>
+                </div>
+                <ul class="gallery-slider">
+                  <li class="slide">
+                    <div class="slide-content">
+                      <h3><a class="gallery-link" href="#">Применение технологий искусственного интеллекта в нефтегазовой области</a></h3>
+                      <p class="gallery-info">Из курса вы узнаете о возможностях раздела "Обучение и развитие", о том, что поможет в развитии собственных компетенций и о дополнительных возможностях в рамках обучения на портале.</p>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <h3><a class="gallery-link" href="#">Применение технологий искусственного интеллекта в нефтегазовой области</a></h3>
+                    <p class="gallery-info">Из курса вы узнаете о возможностях раздела "Обучение и развитие", о том, что поможет в развитии собственных компетенций и о дополнительных возможностях в рамках обучения на портале.</p>
+                  </li>
+                </ul>
+              </div>
               <div class="filters">
+                <ul class="tags-items">
+                  <li>
+                    <a class="tag-link" href="#">Машинное обучене</a>
+                  </li>
+                  <li>
+                    <a class="tag-link" href="#">IBM</a>
+                  </li>
+                  <li>
+                    <a class="tag-link" href="#">AI</a>
+                  </li>
+                  <li>
+                    <a class="tag-link" href="#">Бухгалтерский учет и аудит</a>
+                  </li>
+                </ul>
                 <h4>Классификаторы</h4>
                 <ul class="filters-items">
                   <li>
@@ -118,35 +147,6 @@
                    <img class="edit-image" src="img/pencil.png" width="20" height="20" alt="">Редактировать
                  </a>
               </div>
-            </div>
-            <div class="right-column">
-              <button class="circle-arrows arrow-prev" type="button" disabled>
-                <span class="visually-hidden">Предыдущий слайд</span>
-              </button>
-              <button class="circle-arrows arrow-next" type="button">
-                <span class="visually-hidden">Следующий слайд</span>
-              </button>
-              <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
-              <input class="visually-hidden" type="radio" id="slide-2" name="toggle">
-              <div class="slider-controls">
-                <label class="slider-controls-item slider-controls-item-1" for="slide-1">Слайд 1</label>
-                <label class="slider-controls-item slider-controls-item-2" for="slide-2">Слайд 2</label>
-              </div>
-              <ul class="gallery-slider">
-                <li class="slide">
-                  <div class="slide-content">
-                    <h3><a class="gallery-link" href="#">Применение технологий искусственного интеллекта в нефтегазовой области</a></h3>
-                    <p class="gallery-info">Из курса вы узнаете о возможностях раздела "Обучение и развитие", о том, что поможет в развитии собственных компетенций и о дополнительных возможностях в рамках обучения на портале.</p>
-                  </div>
-
-                  
-                </li>
-                <li class="slide">
-                  <h3><a class="gallery-link" href="#">Применение технологий искусственного интеллекта в нефтегазовой области</a></h3>
-                  <p class="gallery-info">Из курса вы узнаете о возможностях раздела "Обучение и развитие", о том, что поможет в развитии собственных компетенций и о дополнительных возможностях в рамках обучения на портале.</p>
-                </li>
-              </ul>
-            </div>
           </section>
 
           <section class="partners-block">
